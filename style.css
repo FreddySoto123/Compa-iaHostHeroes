@@ -1,59 +1,96 @@
 body {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  font-family: Arial, sans-serif;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #054966;
 }
-.container {
-  display: block;
-  height: 120px;
-  width: 280px;
+
+header {
   display: flex;
-  flex-direction: row;
-  text-align: center;
-  height: 482px;
-  background-color: rgb(27, 25, 25);
-  margin-block: 0px;
-}
-.profile-card {
-  font-family: Arial, sans-serif;
-  display: column;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  align-content: center;
-  height: 120px;
-  width: 280px;
-}
-.profile-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 1px;
-}
-.profile-title {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-.profile-subtitle {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-.social-button {
-  display: inline-block;
-  height: 27px;
-  width: 190px;
-  margin: 5px;
-  background-color: #333;
+  justify-content: center;
+  background-color: #020e1d;
   color: white;
-  text-decoration: none;
-  border-radius: 20px;
+  text-align: center;
+  padding: 1em 0;
 }
-.social-button:hover {
-  background-color: #555;
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tituloaplicaciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.header-logo {
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.developer {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+.developer img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 10px;
+}
+
+.about-company {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background-color: #020e1d;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.applications-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.application-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.application-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }

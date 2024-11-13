@@ -1,27 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Presentación</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrolladores ZorinOS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <button class="anadirTarjeta">Añadir Tarjeta</button>
-  <div class="container">
-    <div class="profile-card">
-      <img class="profile-img" src="/assets/images/avatar-jessica.jpeg" alt="Foto de perfil">
-      <h2 class="profile-title">Jessica Randall</h2>
-      <h5 class="profile-subtitle">Front-end developer and avid reader</h5>
-      <div class="social-buttons">
-        <button class="social-button">GitHub</button>
-        <button class="social-button">Frontend</button>
-        <button class="social-button">LinkedIn</button>
-        <button class="social-button">Twitter</button>
-        <button class="social-button">Instagram</button>
-      </div>
-    </div>
-  </div>
-</body>
-<script src="./index.js"></script>
+    <header>
+        <img src="./assets/images/zorin.png" alt="Logo" class="header-logo">
+        <h1>Desarrolladores de la empresa HostHeroes</h1>
+    </header>
+
+    <main>
+        <section class="developer">
+            <img src="./assets/images/coki.png" alt="Fabricio Axel Coaquira Alanoca">
+            <h2>Fabricio Axel Coaquira Alanoca</h2>
+            <p>Rol: Desarrollador Front-end</p>
+            <p>Desarrollador Front-End con 3 años de experiencia en la creación de interfaces de usuario interactivas y atractivas. Domina tecnologías como JavaScript, HTML, CSS y frameworks como React + Vite.</p>
+        </section>
+
+        <section class="developer">
+            <img src="./assets/images/fer.png" alt="Fernando Xavier Choque Triguero">
+            <h2>Fernando Xavier Choque Triguero</h2>
+            <p>Rol: Desarrollador Back-end</p>
+            <p>Desarrollador con 3 años de experiencia en el desarrollo de software, especializado en tecnologías web como JavaScript, HTML, CSS, Python y C/C++. Experiencia con frameworks modernos como React + Vite.</p>
+        </section>
+
+        <section class="applications">
+          <h2 class="tituloaplicaciones">Herramientas que utilizamos</h2>
+          <div class="applications-container">
+              <div class="application-card">
+                  <img src="./assets/images/Visual Studio Code.png" alt="Visual Studio Code Logo">
+                  <h3>Visual Studio Code</h3>
+                  <p>Editor de código fuente potente y versátil.</p>
+              </div>
+              <div class="application-card">
+                  <img src="./assets/images/GitHub Desktop.png" alt="Git Logo">
+                  <h3>Git</h3>
+                  <p>Sistema de control de versiones distribuido.</p>
+              </div>
+              <div class="application-card">
+                  <img src="./assets/images/Google Chrome.png" alt="Otra App Logo">
+                  <h3>Google Chrome</h3>
+                  <p>Navegador WEB que facilita la depuración del código en tiempo real.</p>
+              </div>
+              <div class="application-card">
+                <img src="./assets/images/Insomnia.png" alt="Otra App Logo">
+                <h3>Insomnia</h3>
+                <p>Cliente REST multiplataforma que permite enviar solicitudes, inspeccionar respuestas y depurar API con facilidad.</p>
+              </div>
+          </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 HostHeroes</p>
+    </footer>
+
+    <script src="index.js"></script> </body>
 </html>
