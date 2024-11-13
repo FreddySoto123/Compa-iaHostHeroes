@@ -62,10 +62,9 @@ nav ul li a:hover {
     color: #68c3a3;
 }
 
-/* Estilo para la sección hero */
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 10px;
     background-color: #054966;
     color: #ffffff;
     width: 100%;
