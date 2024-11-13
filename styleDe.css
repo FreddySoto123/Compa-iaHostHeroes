@@ -1,99 +1,93 @@
-/* Estilos generales */
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #054966;
-  }
-  
-  /* Encabezado */
-  .encabezado-pagina {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #020e1d;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-  }
-  
-  .logo-encabezado {
-    height: 50px;
-    float: left;
-    margin-right: 20px;
-  }
-  
-  /* Contenido principal */
-  .contenido-principal {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  /* Tarjetas de desarrolladores */
-  .tarjeta-desarrollador {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 400px;
-  }
-  
-  .tarjeta-desarrollador img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  
-  /* Sección de aplicaciones */
-  .seccion-aplicaciones {
-    margin-top: 20px; /* Espacio superior */
-  }
-  
-  .titulo-aplicaciones {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-  }
-  
-  .contenedor-aplicaciones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .tarjeta-aplicacion {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
-  }
-  
-  .tarjeta-aplicacion img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-  }
-  
-  
-  /* Pie de página */
-  .pie-pagina {
-    background-color: #020e1d;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    bottom: 0;
-    width: 100%;
-  }
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #054966;
+}
+
+.encabezado-pagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #020e1d;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.logo-encabezado {
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.contenido-principal {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta-desarrollador {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+.tarjeta-desarrollador img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.seccion-aplicaciones {
+  margin-top: 20px;
+}
+
+.titulo-aplicaciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.contenedor-aplicaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta-aplicacion {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.tarjeta-aplicacion img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+
+/* Pie de página */
+.pie-pagina {
+  background-color: #020e1d;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  bottom: 0;
+  width: 100%;
+}

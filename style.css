@@ -1,4 +1,3 @@
-/* Reinicio básico */
 * {
     margin: 0;
     padding: 0;
@@ -15,14 +14,13 @@ body {
     min-height: 100vh;
 }
 
-/* Estilos del encabezado */
 header {
     width: 100%;
     background-color: #020e1d;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -39,6 +37,7 @@ header {
 .encabezado-pagina .logo-encabezado {
     width: 80px;
     height: auto;
+    margin-right: 5%;
 }
 
 nav ul {
@@ -62,7 +61,6 @@ nav ul li a:hover {
     color: #68c3a3;
 }
 
-/* Estilo para la sección hero */
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -83,7 +81,6 @@ nav ul li a:hover {
     line-height: 1.6;
 }
 
-/* Estilos del pie de página */
 footer {
     background-color: #020e1d;
     padding: 20px 0;
@@ -91,10 +88,9 @@ footer {
     width: 100%;
     color: #ffffff;
     font-size: 0.9rem;
-    position: fixed;
     bottom: 0;
 }
-/* Estilos para la sección de departamentos */
+
 .departments {
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +140,6 @@ footer {
     transform: translateY(-5px);
 }
 
-/* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
     .departments {
         flex-direction: column;
@@ -156,7 +151,6 @@ footer {
     }
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
