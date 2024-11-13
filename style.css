@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    padding-bottom: 50px;
 }
 
 /* Estilos del encabezado */
@@ -143,6 +144,13 @@ footer {
 .card:hover {
     transform: translateY(-5px);
 }
+
+img.icono{
+    width: 100px;
+    height: 100px;
+
+}
+
 
 /* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
