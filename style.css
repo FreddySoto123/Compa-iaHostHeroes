@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    
 }
 
 header {
@@ -37,7 +37,6 @@ header {
 .encabezado-pagina .logo-encabezado {
     width: 80px;
     height: auto;
-    margin-right: 5%;
 }
 
 nav ul {
@@ -63,7 +62,7 @@ nav ul li a:hover {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 10px;
     background-color: #054966;
     color: #ffffff;
     width: 100%;
@@ -90,7 +89,7 @@ footer {
     font-size: 0.9rem;
     bottom: 0;
 }
-
+/* Estilos para la sección de departamentos */
 .departments {
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +139,7 @@ footer {
     transform: translateY(-5px);
 }
 
+/* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
     .departments {
         flex-direction: column;
@@ -151,6 +151,7 @@ footer {
     }
 }
 
+/* Responsive design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;

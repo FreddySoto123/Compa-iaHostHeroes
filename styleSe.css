@@ -1,4 +1,4 @@
-/* Estilos Básicos */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,78 +12,78 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #054966;
-    color: #333;
 }
 
 header {
     width: 100%;
     background-color: #020e1d;
     display: flex;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: #020e1d;
     color: white;
-    gap: 15px;
-}
-
-.header-logo {
-    height: 50px;
-    width: 50px;
-    object-fit: contain;
-}
-
-.team-cards {
+    text-align: center;
+    padding: 1em 0;
+  }
+  .team-cards {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     padding: 20px;
     flex-wrap: wrap;
-    max-width: 1200px;
-    width: 100%;
 }
-
 .card {
-    width: 300px;
+    width: 550px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px #0000001a;
     overflow: hidden;
     text-align: center;
     margin-bottom: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 6px #0000004d;
 
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card-header {
-    background-color: #2a9d8f;
-    padding: 20px;
+    background-color: #0d2c3a;
+    padding: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .card-header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
     object-fit: cover;
     border: 5px solid #fff;
 }
 
 .card-body {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card-body h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #333;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .card-body h3 {
@@ -93,10 +93,9 @@ header {
 }
 
 .card-body p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: #666;
     margin-bottom: 15px;
-    text-align: justify;
 }
 
 .contact-btn {
@@ -119,12 +118,17 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    bottom: 0;
     width: 100%;
-    margin-top: auto;
-}
+  }
 
-.titulo-aplicaciones
-{
-    color: white;
-    font-size: 30px;
+
+p{
+    text-align: justify;
+  }
+
+.titulo-aplicaciones{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
 }
