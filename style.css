@@ -1,99 +1,173 @@
-/* Estilos generales */
+/* Reinicio básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #054966;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #054966;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
-/* Encabezado */
+/* Estilos del encabezado */
+header {
+    width: 100%;
+    background-color: #020e1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 .encabezado-pagina {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #020e1d;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020e1d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+.encabezado-pagina .logo-encabezado {
+    width: 80px;
+    height: auto;
 }
 
-.logo-encabezado {
-  height: 50px;
-  float: left;
-  margin-right: 20px;
+nav ul {
+    display: flex;
+    gap: 20px;
 }
 
-/* Contenido principal */
-.contenido-principal {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+nav ul li {
+    list-style: none;
 }
 
-/* Tarjetas de desarrolladores */
-.tarjeta-desarrollador {
-  background-color: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 400px;
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-.tarjeta-desarrollador img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
+nav ul li a:hover {
+    color: #68c3a3;
 }
 
-
-/* Sección de aplicaciones */
-.seccion-aplicaciones {
-  margin-top: 20px; /* Espacio superior */
+/* Estilo para la sección hero */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #054966;
+    color: #ffffff;
+    width: 100%;
 }
 
-.titulo-aplicaciones {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-.contenedor-aplicaciones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-.tarjeta-aplicacion {
-  background-color: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 300px;
+/* Estilos del pie de página */
+footer {
+    background-color: #020e1d;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+}
+/* Estilos para la sección de departamentos */
+.departments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #054966;
 }
 
-.tarjeta-aplicacion img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 10px;
+.card {
+    background-color: #32656f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    color: #ffffff;
+    transition: transform 0.3s;
 }
 
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #68c3a3;
+}
 
-/* Pie de página */
-.pie-pagina {
-  background-color: #020e1d;
-  color: white;
-  text-align: center;
-  padding: 1em 0;
-  bottom: 0;
-  width: 100%;
+.card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.card .button {
+    background-color: #68c3a3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card .button:hover {
+    background-color: #57a990;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .departments {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
 }

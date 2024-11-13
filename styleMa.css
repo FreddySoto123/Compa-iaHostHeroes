@@ -1,0 +1,112 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #054966;
+}
+
+header {
+    width: 100%;
+    background-color: #020e1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020e1d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  .team-cards {
+    display: flex;
+    gap: 30px; /* Aumenta el espacio entre tarjetas */
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas si es necesario */
+}
+.card {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio entre filas de tarjetas */
+}
+
+.card-header {
+    background-color: #2a9d8f;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.card-body h3 {
+    font-size: 1rem;
+    color: #2a9d8f;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contact-btn {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #21867a;
+}
+
+.pie-pagina {
+    background-color: #020e1d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+  }
